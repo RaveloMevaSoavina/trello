@@ -30,7 +30,7 @@ function BoardNavigation() {
     return (
         <NavigationBoardContainer>
             <LeftButtonGroup>
-                <AutosizeInput value="MYRESA-ADMIN" 
+                <AutosizeInput value="PROJET DEVLLO" 
                 onFocus={(e)=> {
                     e.currentTarget.select();
                     setStyle({...style , backgroundColor : "rgb(255,255,255)" , color : "#000"})
