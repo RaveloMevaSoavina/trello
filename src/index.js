@@ -16,9 +16,15 @@ const App = () => {
     </Layout>
 )}
 
+const Loading = () => {
+  return(
+    <img src="./assets/images/5.png" alt="Loading..."/>
+  )
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <Suspense fallback={<div>Loading... </div>}>
+    <Suspense fallback={<Loading/>}>
       <App />
     </Suspense>
   </React.StrictMode>,
