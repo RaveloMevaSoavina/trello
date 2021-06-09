@@ -1,2 +1,2 @@
 export const HOME_PAGE = '/';
-export const CONTACT_PAGE = '/contact';
+export const ONE_BOARD = '/board';

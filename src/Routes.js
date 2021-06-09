@@ -1,5 +1,5 @@
 import {lazy} from 'react'
-import {CONTACT_PAGE, HOME_PAGE} from './settings/constants'
+import {ONE_BOARD, HOME_PAGE} from './settings/constants'
 
 const routes = [
         {
@@ -9,10 +9,10 @@ const routes = [
           component : lazy(()=> import('./container/Home/Home.js'))
         },
         {
-          path: CONTACT_PAGE,
+          path: ONE_BOARD,
           name : "contact",
           exact: true,
-          component : lazy(()=> import('./container/Contact/Contact.js'))
+          component : lazy(()=> import('./container/Board/Board.js'))
         },
 ]
 
