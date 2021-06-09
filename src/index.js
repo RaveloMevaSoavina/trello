@@ -18,7 +18,7 @@ const App = () => {
 
 const Loading = () => {
   return(
-    <img src="./assets/images/5.png" alt="Loading..."/>
+    <div>Loading...</div>
   )
 }
 
