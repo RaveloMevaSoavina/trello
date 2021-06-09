@@ -33,6 +33,6 @@ const ButtonContainer = styled.button`
     }
     svg {
         fill : #FFF;
-        padding : 2px 10px;
+        padding : 2px 5px;
     }
 `

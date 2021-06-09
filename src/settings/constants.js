@@ -1,2 +1,2 @@
-export const HOME_PAGE = '/';
-export const ONE_BOARD = '/board';
+export const HOME_PAGE = '/board';
+export const ONE_BOARD = '/';
